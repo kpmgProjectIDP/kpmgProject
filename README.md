@@ -20,7 +20,19 @@ So our purpose is to split language and extract text from PDF. since all of PDF 
 **step three:** go through rest of files, assuming they all horizantal layout file, read line by line, if one line has more than 30 words are FR, then extract this part of paragraph.
 **step four:** Since all of files are FR and NL, so Using googletrans library to translate file for our teammate to better understand the file, make ready for best model
 
-#### extraction of information(amanuel and maysa)
+#### Model
+To predict whether a document is new or modified we use SVM. The  feature we use is
+the text itself and the target is the class(new/modified).
+|      model     |  score         | f1 score |
+| -------------  | -------------- |----------|
+| svm            |  85            | 85       |
+|                |                |          |
+
+### Summarization
+
+we apply an NLP technique based on frequency of word count to summarize the document.
+for this particular project we use spacy.
+
 
 
 

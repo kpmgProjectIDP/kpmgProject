@@ -32,8 +32,7 @@ the text itself and the target is the class(new/modified).
 
 we apply an NLP technique based on frequency of word count to summarize the document.
 for this particular project we use spacy.
-
-
+Run doc_sum.py This code will launch NLP classification and summerization model to return summery and status of the entered document.
 
 
 ### Usage
